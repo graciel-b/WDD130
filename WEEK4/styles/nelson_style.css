@@ -1,0 +1,50 @@
+body{
+    background-color: #dda7dd;
+    font-family: Arial,serif;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font:bold
+}
+img {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+main div ol {
+    width: 50%;
+    margin: 0 auto;
+    line-height: 25px;
+    font-style: x-large;
+    font-size:bolder;            
+}
+     
+header{
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+
+footer{
+    text-align: center;
+    font-size: 0.7em;
+    color: rgb(54, 53, 53);
+
+}
+.frase{
+    font-size: 1.5em;
+    color: white;
+    display: block;
+    width: 28%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+h1:hover{
+    color: black;
+}
