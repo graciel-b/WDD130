@@ -1,6 +1,6 @@
 body{
     max-width: 1600px;
-    background-color: #dda7dd;
+    background-color: #F2A0B6;
     font-family: Arial,serif;
 }
 
@@ -16,6 +16,7 @@ img {
     margin: 0 auto;
     padding: 8px;
 }
+
 .numbers {
     display: block;
     margin-left: auto;
@@ -23,7 +24,6 @@ img {
     width: 30%;  
     padding: 15px;
     line-height: 1.5;
-   
 }
      
 header{
