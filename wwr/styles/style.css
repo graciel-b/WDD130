@@ -1,16 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@500&family=Roboto:wght@300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
-
+body {
+    font-size: 22px;
+    font-family: 'Roboto', "Century Gothic", sans-serif;
+    background-color: #fcfbfb; 
+    margin: 0;
+    padding: 0;
+}
 nav a {
     text-align: center;
     color: whitesmoke;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: black;
     color: #E69C60;}
+
+h2 {
+    margin: 0;
+}
 
 #hero-msg h1 {
     text-align: center;
@@ -23,6 +36,9 @@ nav a:hover {
 #hero-img {
     width: 100%;
 }
+#logo_link {
+    padding-top: 5px;
+}
 
 .button-box {
     text-align: center;
@@ -31,29 +47,44 @@ nav a:hover {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 
 #background {
     height: 725px;
+    background-color:#879263 ;
 }
-body {
-    background-color: #fcfbfb; 
-}
+
 header {
     background-color:rgba(69, 117, 34, 0.7);
 }
 
 
 .book{
+    font-size: 18px;
     background-color:#586139 ;
     color:#fcfbfb;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 }
 .join{
+    font-size: 18px;
     background-color:#879263 ;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
 .book:hover{
     background-color:#f0ba8e ;
     color: black;
@@ -62,26 +93,45 @@ header {
     background-color: #f0ba8e ;
     color: black;
 }
-#background{
-    background-color:#879263 ;
- 
+
+.card-img {
+    border: 10px solid #879263;
+
 }
+
 .msg{
+    line-height: 1.5em;
     background-color:#879263 ;
+    padding: 35px;
 }
 
 .msg h2{
+    font-family: 'Merienda', "Brush Script MT", cursive;
     color: #f3c59f;
 
 }
 .msg p{
+    font-size: 0.8em;
     color: #1b1f10;
-    }
+    padding-bottom: 15px;
+}
+
+.mountains {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    margin: 200px 0;
+
+}
   
 footer{
     background-color: #f0ba8e;
-    color: black
+    color: black;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
+
 }
+
 footer a {
     color: #4a4e69;
     text-decoration: none;
@@ -96,14 +146,23 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
-}    
+}  
+.social img{
+    padding-top: 15px;
+}  
 
 .home-title {
-    color:#3c4226;
+    font-size: 2em;
+    color:#4a522e;
+    margin-top: 10px;
+    font-family: 'Merienda', "Brush Script MT", cursive;
+
 }
+
 .logo{
     width: 80px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
