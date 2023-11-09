@@ -1,9 +1,36 @@
-.principal{
+html {
+    background: black;
+}
+body{
+    background-color: white;
     width: 299px;
-    height: 500px;
+    height: 600px;
     text-align: center;
+    margin: 30px;
+}
+
+
+.bridge{
+    border-radius: 15px 15px 0px 0px;
+}
+.line1{
+    color: blue;
+    margin-bottom: 0px;
+}
+.post{
+    margin: 0px;
+
+}
+.text{
+    color: rgba(105, 105, 187, 0.753);
+    width: 200px; 
+    text-align: center; 
 }
 .text{
     padding: 20px;
-    overflow: 
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1em 1em 1em;
+    grid-template-rows: auto;
 }
