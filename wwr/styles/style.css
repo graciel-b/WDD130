@@ -225,7 +225,7 @@ footer p a:hover {
 }  
 
 .home-title {
-    font-size: 2em;
+    font-size: 3em;
     color:#4a522e;
     margin-top: 10px;
     font-family: 'Merienda', "Brush Script MT", cursive;
@@ -278,7 +278,72 @@ footer p a:hover {
         margin: 0 auto;
     }
     footer {
-        margin-top: 25px;
+        margin-top: 10px;
     }
 }
-            
+/*PAGE 2*/
+
+#host{
+    text-align: center;
+    border-bottom: 0px;
+}
+
+h3{
+    font-size: 20px;
+    
+}
+
+.sub{
+    padding-left: 200px;
+    padding-right: 200px;
+    
+
+ }
+
+.host-grid{
+    display:grid;
+    grid-template-columns: 1fr 2fr 0.5fr;
+}
+.image{
+    width: 350px;
+    height: 250px;
+    background-color:  #f0b98c;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    padding-right: 150px;
+    padding-top: 100px;
+}
+ 
+.item1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-bottom: 40px;
+
+}
+.item2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding-bottom: 40px;
+
+}
+
+.item3{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-bottom: 40px;
+}
+.item4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding-bottom: 40px;
+}
+

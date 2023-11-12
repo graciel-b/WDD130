@@ -7,9 +7,9 @@ body{
     height: 600px;
     text-align: center;
     margin: 30px;
+    position: absolute;
+
 }
-
-
 .bridge{
     border-radius: 15px 15px 0px 0px;
 }
@@ -25,6 +25,7 @@ body{
     color: rgba(105, 105, 187, 0.753);
     width: 200px; 
     text-align: center; 
+    padding: 40px;
 }
 .text{
     padding: 20px;
